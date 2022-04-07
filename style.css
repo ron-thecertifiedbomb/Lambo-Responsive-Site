@@ -1,23 +1,23 @@
-*{
+* {
 
     padding: 0;
     box-sizing: border-box;
     background: black;
-  
+
 }
 
 
 
 
 .page-one, .page-two {
-    display:grid;
+    display: grid;
     min-height: 100vh;
     align-content: center;
 }
 
 
 .header {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -37,52 +37,35 @@ img {
 
 
 .cards {
-    
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     column-gap: 20px;
-    
+
 }
 
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
     .header {
         flex-direction: column;
         gap: 0.5px;
         margin-top: 3rem;
- 
+
     }
-    
- 
- h1 {
-     
-     font-size: 2rem;
-     
- 
- }
 
 
- .logo {
-    max-width: 25%;
+    h1 {
+
+        font-size: 2rem;
+
+
+    }
+
+
+    .logo {
+        max-width: 25%;
+    }
+
+
 }
- 
- 
- }
-
-
-
-sss
-
-
-
-
-
-
-
-
-
-
-
-
-

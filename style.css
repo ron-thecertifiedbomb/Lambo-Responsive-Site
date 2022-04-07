@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+
     padding: 0;
     box-sizing: border-box;
     background: black;
@@ -11,15 +11,28 @@
 
 .page-one, .page-two {
     display:grid;
-    height: 100vh;
+    min-height: 100vh;
     align-content: center;
 }
 
 
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 200px;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: gotham;
+}
 
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 
@@ -33,11 +46,33 @@ img {
 
 
 
+@media only screen and (max-width: 700px){
+    .header {
+        flex-direction: column;
+        gap: 0.5px;
+        margin-top: 3rem;
+ 
+    }
+    
+ 
+ h1 {
+     
+     font-size: 2rem;
+     
+ 
+ }
+
+
+ .logo {
+    max-width: 25%;
+}
+ 
+ 
+ }
 
 
 
-
-
+sss
 
 
 

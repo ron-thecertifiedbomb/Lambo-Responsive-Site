@@ -9,7 +9,7 @@
 
 
 
-.page-one, .page-two {
+.page-one, .page-two, .page-three {
     display: grid;
     min-height: 100vh;
     align-content: center;

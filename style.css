@@ -36,6 +36,12 @@ img {
 }
 
 
+img:hover {
+	filter: grayscale(100%);
+}
+
+
+
 .cards {
 
     display: grid;
